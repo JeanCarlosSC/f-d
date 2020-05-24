@@ -6,6 +6,14 @@
     --negro: #212121;
 }
 
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -15,6 +23,7 @@ body {
 }
 
 .titulo {
+    margin: 1.6rem;
     text-align: center;
     font-size: 3.8rem;
 }
@@ -58,4 +67,6 @@ body {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 410px;
+    padding: 8rem;
 }
