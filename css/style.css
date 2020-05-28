@@ -16,12 +16,13 @@ html {
 }   /* apply a natural box layout model to all elements, but allowing components to change */
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; /* conversion de pixeles a rem para uso responsivo */
 }
 body {
     font-size: 16px;  /* 1rem = 10px */
     font-family: 'Krub', sans-serif;
-}   /* conversion de pixeles a rem para uso responsivo */
+    background-image: linear-gradient(to top, #DFE9F3 0%, var(--blanco) 100%);
+}
 
 .contenedor {
     max-width: 70rem;
@@ -51,7 +52,7 @@ body {
 /* tipografia */
 h1 {
     margin: 1.6rem;
-    font-size: 3.7rem;
+    font-size: 3.6rem;
 }
 h2 {
     font-size: 2.8rem;
