@@ -103,6 +103,9 @@ h1, h2, h3 {
 .alinear-derecha {
     justify-content: flex-end;
 }
+.m-tp-2 {
+    margin-top: 2rem;
+}
 
 /* navegacion principal */
 .nav-bg {
